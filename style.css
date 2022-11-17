@@ -1,0 +1,275 @@
+ body {
+  background-color:#808080;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+header {
+  background-color: #202020;
+}
+
+.headers {
+  font-family: impact;
+  color: black;
+  font-size: 25px;
+  background-color: #606060;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.headers1 {
+  font-family: impact;
+  color: white;
+  font-size: 30px;
+  background-color:#303030;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.banner {
+margin: 0px;
+background-color: #202020;
+font-family: impact;
+text-align: center;
+font-size: 2.5em;
+color: #E0E0E0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #303030;
+  font-family: tahoma;
+  color: #D3D3D3;
+}
+
+nav li {
+  float: left;
+  color: white;
+  font-size: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav a:hover:not(.active) {
+    background-color: #aaa;
+    color: white;
+}
+
+h2 {
+  font-family: impact;
+  color: black;
+  font-size: 30px;
+  background-color: #505050;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h3 {
+  font-family: impact;
+  color: black;
+  font-size: 30px;
+  background-color: #606060;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h4 {
+  font-family: impact;
+  color: black;
+  font-size: 30px;
+  background-color: #606060;
+}
+
+h5 {
+  font-family: impact;
+  color: black;
+  font-size: 30px;
+  background-color: #606060;
+}
+
+h6 {
+  font-family: impact;
+  color: black;
+  font-size: 30px;
+  background-color: #606060;
+}
+
+p {
+  font-family: arial;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #787878;
+  font-style: normal;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+footer {
+  background-color: #303030;
+  font-family: arial;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0px;
+  height: 47px;
+  position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+a {
+  font-family: arial;
+  color: white;
+}
+
+.active {
+    background-color: #111;
+    color: yellow;
+    font-family: impact;
+}
+
+#imagespositions {
+  float: right;
+  align: right;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+#imagespositions2 {
+  float: left;
+  align: left;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.paragraph {
+padding-left: 5%;
+padding-right: 5%;
+width: 50%;
+text-align: justify;
+}
+
+#instruction {
+  text-align: right;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-style: italic;
+  background-color: #808080;
+}
+
+#instruction2 {
+  text-align: left;
+  padding-left: 2%;
+  font-style: italic;
+  background-color: #808080;
+}
+
+#videoposition {
+  padding-right: 2%;
+  padding-left: 2%;
+  margin: 0%;
+  width: 45%;
+  float: left;
+}
+
+#infovideo {
+  margin-right: 2%;
+}
+
+#buttonstream {
+background-color: black;
+color: yellow;
+width: 305px;
+height: 45px;
+margin-left: 3%;
+font-family: tahoma;
+border-color: yellow;
+}
+
+#important {
+font-size: 0.75em;
+text-align: right;
+font-style: bold;
+background-color: #303030;
+color: #FFD700;
+margin-left: 22%;
+}
+
+#important2 {
+font-size: 0.75em;
+text-align: left;
+font-style: bold;
+background-color: #303030;
+color: #FFD700;
+margin-right: 30%;
+}
+
+#important3 {
+  font-size: 0.75em;
+  text-align: right;
+  font-style: bold;
+  background-color: #303030;
+  color: #FFD700;
+  margin-left: 30%;
+}
+
+#important4 {
+font-size: 0.75em;
+text-align: left;
+font-style: bold;
+background-color: #303030;
+color: #FFD700;
+margin-right: 60%;
+}
+
+ul {
+  font-family: impact;
+}
+#streaming {
+  font-family: impact;
+  color: white;
+  background-color: #303030;
+  font-size: 25px;
+  margin-left: 2%;
+  margin-right: 90%;
+}
+
+#streaming2 {
+  font-family: impact;
+  color: white;
+  background-color: #303030;
+  font-size: 25px;
+  margin-left: 2%;
+  margin-right: 86%;
+}
+
+#streaming3 {
+  font-family: impact;
+  color: white;
+  background-color: #303030;
+  font-size: 25px;
+  margin-left: 2%;
+  margin-right: 92%;
+}
+
+@media screen and (max-device-width: 300px)
+{
+  #imagespositions {
+    width: 250px;
+  }
+}
+
+@media screen and (max-device-width: 300px)
+{
+  #imagespositions2 {
+    width: 250px;
+  }
+}
